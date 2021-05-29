@@ -17,9 +17,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.brocode.model.City;
-
+import com.brocode.model.Garage;
 import com.brocode.model.State;
 import com.brocode.model.User;
 import com.brocode.model.Area;
@@ -52,20 +53,27 @@ public class UserController {
 	
 	@Autowired
 	CityService cityservice;
-
+	
 	@Autowired
 	AreaService areaservice;
 
 
 	@RequestMapping("/home")
-	public String home () {
-		/*List<Property> list = propertyService.getrecent();
-		Property property=new Property();
-		model.addAttribute("filters", property);
-		model.addAttribute("property", list);*/
-		
-		return "home";
+	public ModelAndView home() {
+		//List<Garage> garagelist = garageservice.getAll();
+		List<City> cityList = cityservice.getAll();
+		List<Area> areaList = areaservice.getAll();
+		Garage garageFilter = new Garage();
+		ModelAndView model = new ModelAndView();
+		model.setViewName("home");
+		model.addObject("garageFilter", garageFilter);
+		model.addObject("cityList", cityList);
+		model.addObject("areaList", areaList);
+
+		//model.addObject("garageList",garagelist);
+		return model;
 	}
+	
 	@RequestMapping("/tenancyPolicy")
 	public String tenancyPolicy() {
 		return "policies";

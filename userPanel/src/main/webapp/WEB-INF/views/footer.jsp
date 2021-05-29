@@ -27,7 +27,6 @@
                                                 <ul>
                                                    
                                                     <li><a href="/userPanel/user/terms">Terms and Condition</a></li>
-													<li><a href="/userPanel/user/tenancyPolicy">Tenancy Policies</a></li>
 													<li><a href="/userPanel/user/contactUs">Contact</a></li>
 													<li><a href="/userPanel/user/faq">FAQ</a></li>
                                                 </ul>
@@ -39,7 +38,7 @@
                                                 <ul>
                                                     <li><a href="/userPanel/user/aboutUs">About Us</a></li>
                                                     <li><a href="/userPanel/user/services">Services We Provide</a></li>
-                                                    <li><a href="/userPanel/feedback/sendfeedback">Feedback</a></li>
+                                                    <li><a href="/userPanel/user/sendfeedback">Feedback</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -62,7 +61,7 @@
                     </div>
                 </div>
                 <div class="row copyright">
-                    <div class="col-sm-6"> <span>© 2021 Garage in your Pocket right reserved</span> </div>
+                    <div class="col-sm-6"> <span>Â© 2021 Garage in your Pocket right reserved</span> </div>
                 </div>
             </div>
         </footer>

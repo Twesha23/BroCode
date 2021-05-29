@@ -61,99 +61,235 @@
                      
                      
                </div>
+               </div>
+               </div>
                 
-               <!--  <!-- Slide 2-->
-            <!--     <div class="ls-slide" data-ls="kenburnsscale:1.2; duration:12000;"> <img width="1920" height="960" src="images/slider/05.jpg" class="ls-l" alt="" style="top:-339px; left:-260px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:normal; filter:blur(10px);" data-ls="showinfo:1; durationin:1500; easingin:easeOutQuint; rotateyin:-5; scalexin:.8; scaleyin:.8; filterin:blur(30px); loop:true; loopduration:5000; loopstartat:allinend + 0; loopeasing:easeInOutSine; loopscalex:.8; loopscaley:.8; loopcount:1; loopfilter:blur(0px);">
-                    <div style="top:0px; left:0px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:normal; height:520px; width:50%; font-size:13px; opacity:.5;" class="ls-l bg-secondary" data-ls="showinfo:1; delayin:500; fadein:false; heightin:0; offsetxout:left; easingout:easeInQuint; skewxout:10;"></div>
-                    <div style="top:170px; left:100px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:normal; font-family:Verdana; font-size:40px; height:2px; background:#fff; width:250px; opacity:.75; border-radius:3px;" class="ls-l" data-ls="showinfo:1; durationin:1500; delayin:1000; fadein:false; clipin:0 50% 0 50%; offsetxout:left;"></div>
-                    <p style="top:140px; left:100px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:normal; font-family:'Comfortaa', cursive; font-size:20px; color:#fff;" class="ls-l" data-ls="showinfo:1; offsetyin:top; delayin:1000; easingin:easeOutQuint; offsetxout:left; texttransitionin:true; texttypein:chars-desc; textshiftin:20; textoffsetyin:-70lh; textdurationin:800; texteasingin:easeOutQuint; textfadein:false; textstartatin:transitioninstart + 0;">New duplex lixury condos</p>
-                    <p style="top:190px; left:100px; text-align:initial; text-decoration:none; mix-blend-mode:normal; font-size:10px; color:#fff; padding-right:20px;" class="ls-l" data-ls="showinfo:1; offsetxin:-100lw; durationin:1500; delayin:2000; transformoriginin:0% 50% 0; clipin:0 0 0 100%; offsetxout:left;"><i class="fas fa-map-marker-alt text-primary"></i> 1744 Daylene Drive Newport MI 48166, Australia</p>
-                    <p style="top:220px; left:100px; text-align:initial; text-decoration:none; mix-blend-mode:normal; font-size:10px; color:#fff; padding-right:20px;" class="ls-l" data-ls="showinfo:1; offsetxin:-100lw; durationin:1500; delayin:2300; transformoriginin:0% 50% 0; clipin:0 0 0 100%; offsetxout:left;"><span class="pr-3"><i class="flaticon-select flat-mini text-primary"></i> 3500 Sqft</span><span class="pr-3"><i class="flaticon-hotel flat-mini text-primary"></i> 4 Beds</span><span class="pr-3"><i class="flaticon-bathroom flat-mini text-primary"></i> 3 Baths</span><span class="pr-3"><i class="flaticon-garage flat-mini text-primary"></i> Garage</span></p>
-                    <p style="top:260px; left:100px; text-align:initial; text-decoration:none; mix-blend-mode:normal; font-size:14px; color:#fff; padding-right:20px;" class="ls-l" data-ls="showinfo:1; offsetxin:-100lw; durationin:1500; delayin:2600; transformoriginin:0% 50% 0; clipin:0 0 0 100%; offsetxout:left;">$ 12500.00 / Monthly</p>
-                    <div style="text-align:center; width:60px; height:25px; line-height: 25px; font-family:'Varela Round', sans-serif; font-size:10px; color:#ffffff; border-radius:3px; top:256px; left:270px;" class="ls-l bg-primary" data-ls="delayin:2800; easingin:easeOutElastic; rotateyin:-300; durationout:400; rotateyout:-400; parallaxlevel:0;">For Rent</div>
-                    <a style="" class="ls-l" href="#" target="-self" data-ls="offsetyin:30; durationin:1000; delayin:2800; offsetyout:-30; durationout:400; hover:true; hoverdurationin:300; hoveropacity:1; hoverbgcolor:#ffffff; hovercolor:#444444; parallaxlevel:0;">
-                    <p style="font-weight:500; text-align:center;cursor:pointer; ;padding-top:8px; padding-bottom:7px; font-family:'Varela Round', sans-serif; font-size:10px; top:310px; left:100px; border-top:1px solid #fff; border-right:1px solid #fff; padding-right:15px; border-bottom:1px solid #fff; border-left:1px solid #fff; padding-left:15px; line-height:15px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; color:#ffffff; background:rgba(0, 0, 0, 0.1); border-radius:2px; style:font-weight:500; text-align:center;cursor:pointer; ;" class=" ls-button">View Details</p>
-                    </a> </div>
-             -->    
-         <!--        Slide 3
-                <div class="ls-slide" data-ls="kenburnsscale:1.2; duration:12000;"> <img width="1920" height="960" src="images/slider/06.jpg" class="ls-l" alt="" style="top:-339px; left:-260px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:normal; filter:blur(10px);" data-ls="showinfo:1; durationin:1500; easingin:easeOutQuint; rotateyin:-5; scalexin:.8; scaleyin:.8; filterin:blur(30px); loop:true; loopduration:5000; loopstartat:allinend + 0; loopeasing:easeInOutSine; loopscalex:.8; loopscaley:.8; loopcount:1; loopfilter:blur(0px);">
-                    <div style="top:0px; left:0px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:normal; height:520px; width:50%; font-size:13px; opacity:.5;" class="ls-l bg-secondary" data-ls="showinfo:1; delayin:500; fadein:false; heightin:0; offsetxout:left; easingout:easeInQuint; skewxout:10;"></div>
-                    <div style="top:170px; left:100px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:normal; font-family:Verdana; font-size:40px; height:2px; background:#fff; width:250px; opacity:.75; border-radius:3px;" class="ls-l" data-ls="showinfo:1; durationin:1500; delayin:1000; fadein:false; clipin:0 50% 0 50%; offsetxout:left;"></div>
-                    <p style="top:140px; left:100px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:normal; font-family:'Comfortaa', cursive; font-size:20px; color:#fff;" class="ls-l" data-ls="showinfo:1; offsetyin:top; delayin:1000; easingin:easeOutQuint; offsetxout:left; texttransitionin:true; texttypein:chars-desc; textshiftin:20; textoffsetyin:-70lh; textdurationin:800; texteasingin:easeOutQuint; textfadein:false; textstartatin:transitioninstart + 0;">New duplex lixury condos</p>
-                    <p style="top:190px; left:100px; text-align:initial; text-decoration:none; mix-blend-mode:normal; font-size:10px; color:#fff; padding-right:20px;" class="ls-l" data-ls="showinfo:1; offsetxin:-100lw; durationin:1500; delayin:2000; transformoriginin:0% 50% 0; clipin:0 0 0 100%; offsetxout:left;"><i class="fas fa-map-marker-alt text-primary"></i> 1744 Daylene Drive Newport MI 48166, Australia</p>
-                    <p style="top:220px; left:100px; text-align:initial; text-decoration:none; mix-blend-mode:normal; font-size:10px; color:#fff; padding-right:20px;" class="ls-l" data-ls="showinfo:1; offsetxin:-100lw; durationin:1500; delayin:2300; transformoriginin:0% 50% 0; clipin:0 0 0 100%; offsetxout:left;"><span class="pr-3"><i class="flaticon-select flat-mini text-primary"></i> 3500 Sqft</span><span class="pr-3"><i class="flaticon-hotel flat-mini text-primary"></i> 4 Beds</span><span class="pr-3"><i class="flaticon-bathroom flat-mini text-primary"></i> 3 Baths</span><span class="pr-3"><i class="flaticon-garage flat-mini text-primary"></i> Garage</span></p>
-                    <p style="top:260px; left:100px; text-align:initial; text-decoration:none; mix-blend-mode:normal; font-size:14px; color:#fff; padding-right:20px;" class="ls-l" data-ls="showinfo:1; offsetxin:-100lw; durationin:1500; delayin:2600; transformoriginin:0% 50% 0; clipin:0 0 0 100%; offsetxout:left;">$ 12500.00 / Monthly</p>
-                    <div style="text-align:center; width:60px; height:25px; line-height: 25px; font-family:'Varela Round', sans-serif; font-size:10px; color:#ffffff; border-radius:3px; top:256px; left:270px;" class="ls-l bg-primary" data-ls="delayin:2800; easingin:easeOutElastic; rotateyin:-300; durationout:400; rotateyout:-400; parallaxlevel:0;">For Rent</div>
-                    <a style="" class="ls-l" href="#" target="-self" data-ls="offsetyin:30; durationin:1000; delayin:2800; offsetyout:-30; durationout:400; hover:true; hoverdurationin:300; hoveropacity:1; hoverbgcolor:#ffffff; hovercolor:#444444; parallaxlevel:0;">
-                    <p style="font-weight:500; text-align:center;cursor:pointer; ;padding-top:8px; padding-bottom:7px; font-family:'Varela Round', sans-serif; font-size:10px; top:310px; left:100px; border-top:1px solid #fff; border-right:1px solid #fff; padding-right:15px; border-bottom:1px solid #fff; border-left:1px solid #fff; padding-left:15px; line-height:15px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; color:#ffffff; background:rgba(0, 0, 0, 0.1); border-radius:2px; style:font-weight:500; text-align:center;cursor:pointer; ;" class=" ls-button">View Details</p>
-                    </a> </div>
-         -->    </div>
-        </div>
-        
-        <!-- Property Search Form One
-		=============================================================-->
-                                <!-- <div class="col-md-4 col-lg-3">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="validationDefault03" placeholder="State" required>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-lg-3">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="validationDefault04" placeholder="City" required>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-lg-3">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="validationDefault04" placeholder="Area" required>
-                            </div>
-                        </div>
-                         <div class="col-md-4 col-lg-3">
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-primary w-100">Search Property</button>
-                            </div>
-                        </div> */
-                        -->
+            
+           <div class="full-row">
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-lg-4">
+						<div class="sidebar-widget">
+							<h4
+								class="double-down-line-left text-secondary position-relative pb-4 mb-4">Advance
+								Search</h4>
+							<form:form method="post" modelAttribute="garageFilter"
+								action="">
+								<div class="row">
+									
+									
+									<div class="col-md-12">
+										<div class="form-group">
+											<span class ="text-primary">Minimum charges</span> <br>
+											<form:checkbox path="minChargesFilter" value="Below 100"
+												class="filters" />
+											&nbsp;Below 100 &nbsp; &nbsp;
+											<form:checkbox path="minChargesFilter" value="100-300"
+												class="filters" />
+											&nbsp;Between 100-300 &nbsp; <br>
+											<form:checkbox path="minChargesFilter" value="Above 300"
+												class="filters" />
+											&nbsp;Above 300
+
+										</div>
+									</div>
+									
+									
+									<div class="col-md-12">
+										<div class="form-group">
+											<span class ="text-primary">City</span> <br>
+											<form:select class="form-control bg-gray" path="cityId" name="cityId">
+												<option value=0 label="Select City" />
+												<c:forEach var="c" items="${cityList}">
+													<form:option value="${c.cityId}" label="${c.cityName}" />
+												</c:forEach>
+											</form:select>
+										</div>
+									</div>
+									
+									<div class="col-md-12">
+										<div class="form-group">
+											<span class ="text-primary">Area</span> <br>
+											<form:select class="form-control bg-gray" path="areaId" name="areaId">
+												<option value=0 label="Select Area" />
+												<c:forEach var="a" items="${areaList}">
+													<form:option value="${a.areaId}" label="${a.areaName}"/>
+												</c:forEach>
+											</form:select>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group mt-4">
+											<input type="submit" class="btn btn-primary" style="width:49%;" value="Search Garage">
+											<input type="reset" class="btn btn-primary" style="width:49%;" value="Reset">
+											
+										</div>
+									</div>
+								</div>
+							</form:form>
+						</div>
+
+						<div class="sidebar-widget mt-5">
+							
+						</div>
+					</div>
+
+					<div class="col-lg-8">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="pb-4 mt-md-50"></div>
+							</div>
+						</div>
+						<div class="row">
+						<!--<c:forEach var="g" items="${garageList}">
+						<a href="/userPanel/garage/viewGarage/${g.garageId}">
+							<div class="col-md-6">
+								<div class="featured-thumb hover-zoomer mb-4">
+									<div class="overlay-black overflow-hidden position-relative">
+										<img
+											src="/userPanel/resources/images/garagePicture/${g.garagePicture}" height="300"
+											alt="">
+										<div class="sale bg-secondary text-white">${g.status}</div>
+										<div class="price text-primary">
+											Rs.${g.minCharges}
+										</div>
+										
+									</div>
+									<div class="featured-thumb-data shadow-one">
+										<div class="p-4">
+											<h5 class="text-secondary hover-text-primary mb-2">
+												<a href="#">${g.garageName}</a>
+											</h5>
+											<span class="location"></span>
+										</div>
+										
+									</div>
+								</div>
+								
+							</div>
+							</a>
+							</c:forEach> -->
+							
+						<a href="">
+							<div class="col-md-6">
+								<div class="featured-thumb hover-zoomer mb-4">
+									<div class="overlay-black overflow-hidden position-relative">
+										<img
+											src="/userPanel/resources/images/garagePicture/g1.jpeg" height="300"
+											alt="">
+										<div class="sale bg-secondary text-white">Open</div>
+										<div class="price text-primary">
+											Rs.100
+										</div>
+										
+									</div>
+									<div class="featured-thumb-data shadow-one">
+										<div class="p-4">
+											<h5 class="text-secondary hover-text-primary mb-2">
+												<a href="#">Auto Care</a>
+											</h5>
+											<span class="location">Vasna</span>
+										</div>
+										
+									</div>
+								</div>
+								
+							</div>
+							</a>
+							
+							<a href="">
+							<div class="col-md-6">
+								<div class="featured-thumb hover-zoomer mb-4">
+									<div class="overlay-black overflow-hidden position-relative">
+										<img
+											src="/userPanel/resources/images/garagePicture/g2.jpeg" height="300"
+											alt="">
+										<div class="sale bg-secondary text-white">Open</div>
+										<div class="price text-primary">
+											Rs.300
+										</div>
+										
+									</div>
+									<div class="featured-thumb-data shadow-one">
+										<div class="p-4">
+											<h5 class="text-secondary hover-text-primary mb-2">
+												<a href="#">Repair Shop</a>
+											</h5>
+											<span class="location">Paldi</span>
+										</div>
+										
+									</div>
+								</div>
+								
+							</div>
+							</a>
+							
+							<a href="">
+							<div class="col-md-6">
+								<div class="featured-thumb hover-zoomer mb-4">
+									<div class="overlay-black overflow-hidden position-relative">
+										<img
+											src="/userPanel/resources/images/garagePicture/g3.jpeg" height="300"
+											alt="">
+										<div class="sale bg-secondary text-white">Closed</div>
+										<div class="price text-primary">
+											Rs.200
+										</div>
+										
+									</div>
+									<div class="featured-thumb-data shadow-one">
+										<div class="p-4">
+											<h5 class="text-secondary hover-text-primary mb-2">
+												<a href="#">Mechanic Hub</a>
+											</h5>
+											<span class="location">Navrangpura</span>
+										</div>
+										
+									</div>
+								</div>
+								
+							</div>
+							</a>
+							
+							<a href="">
+							<div class="col-md-6">
+								<div class="featured-thumb hover-zoomer mb-4">
+									<div class="overlay-black overflow-hidden position-relative">
+										<img
+											src="/userPanel/resources/images/garagePicture/g4.jpeg" height="300"
+											alt="">
+										<div class="sale bg-secondary text-white">Open</div>
+										<div class="price text-primary">
+											Rs.50
+										</div>
+										
+									</div>
+									<div class="featured-thumb-data shadow-one">
+										<div class="p-4">
+											<h5 class="text-secondary hover-text-primary mb-2">
+												<a href="#">Perfect Gear</a>
+											</h5>
+											<span class="location">Ambavadi</span>
+										</div>
+										
+									</div>
+								</div>
+								
+							</div>
+							</a>
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+           
                         
-                        
-        <!--	Recent Properties
-        =======================================================-->
-         <div class="full-row">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2 class="text-secondary double-down-line text-center">Listed Garages</h2>
-                        </div>
-                </div>
-                <!--  <div class="row">
-                   <c:forEach items="${garage}" var="garage">
-                            <div class="col-md-6 col-lg-4">
-                                <div class="featured-thumb hover-zoomer mb-4">
-                                    <div class="overlay-black overflow-hidden position-relative"> <img width="250" height="250" src="/easypguser/resources/images/propertyPicture/${property.propertyPicture} " alt="">
-                                        <div class="featured bg-primary text-white">New</div>
-                                        <div class="sale bg-secondary text-white">For Rent</div>
-                                        <div class="price text-primary">Rs.${property.rent}/month </div>
-                                       
-                                    </div>
-                                    
-                                    <div class="featured-thumb-data shadow-one">
-                                        <div class="p-4">
-                                            <h5 class="text-secondary hover-text-primary mb-2"><a href="/easypguser/property/viewProperty/${property.propertyId}">${property.title}</a></h5>
-                                            <span class="location"><i class="fas fa-map-marker-alt text-primary"></i> ${property.address}</span> </div>
-                                        <div class="px-4 pb-4 d-inline-block w-100">
-                                            <div class="float-left"><i class="fas fa-user text-primary mr-1"></i> ${property.fname} ${property.lname}</div>
-                                            <div class="float-right"><i class="far fa-calendar-alt text-primary mr-1"></i> ${property.createdDate}</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </c:forEach>
-                            
-                            <div class="col-md-12 col-lg-12"> <a class="btn btn-primary mt-5 d-table mx-auto" href="/easypguser/property/propertyGrid">More Properties</a> </div>
-                       
-            </div>-->
-        </div>
-        </div>
-        
+         
+         
+         
                        <!--	Achievement
         ============================================================-->
         <!-- <div class="full-row overlay-secondary" style="background-image: url('images/counterbg.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
@@ -268,7 +404,41 @@
 	<%@include file="footer.jsp" %>
 	
 	<a href="#" class="bg-secondary text-white hover-text-secondary" id="scroll"><i class="fas fa-angle-up"></i></a>
+<script type="text/javascript">
+		$("#cityId")
+				.change(
+						function() {
+							var cityId = $(this).val();
 
+							$
+									.ajax({
+										type : 'GET',
+										url : "/userPanel/area/getAreas/"
+												+ cityId,
+										success : function(data) {
+
+											var slctSubcat = $('#areaId'), option = "";
+											slctSubcat.empty();
+											var select = "<option value='0'>  Select Area </option>";
+
+											for (var i = 0; i < data.length; i++) {
+												option = option
+														+ "<option value='"+data[i].areaId + "'>"
+														+ data[i].areaName
+														+ "</option>";
+											}
+											slctSubcat.append(select);
+											slctSubcat.append(option);
+										},
+										error : function() {
+											alert("error");
+										}
+									});
+						});
+	</script>
+<script type="text/javascript"
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	
 	<%@include file="script.jsp" %>
 </body>
 </html>

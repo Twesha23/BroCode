@@ -170,7 +170,7 @@
 										<label>State</label>
 										<form:select class="form-control bg-gray" path="stateId"
 											name="stateId" id="stateId">
-											<option value=0 label="Select State" />
+											<option value=0 label="Select state" />
 											<c:forEach var="s" items="${liststate}">
 												<form:option value="${s.stateId}" label="${s.stateName}" />
 											</c:forEach>
@@ -180,7 +180,7 @@
 										<label>City</label>
 										<form:select class="form-control bg-gray" path="city_id"
 											name="city_id" id="cityId">
-											<option value=0 label="Select City" />
+											<option value=0 label="Select city" />
 											<c:forEach var="c" items="${listcity}">
 												<form:option value="${c.cityId}" label="${c.cityName}" />
 											</c:forEach>
@@ -190,7 +190,7 @@
 										<label>Area</label>
 										<form:select class="form-control bg-gray" path="areaId"
 											id="areaId">
-											<option value=0 label="Select Area" />
+											<option value=0 label="Select area" />
 											<c:forEach var="a" items="${listarea}">
 												<form:option value="${a.areaId}" label="${a.areaName}" />
 											</c:forEach>
@@ -208,7 +208,7 @@
 									</div>
 									<c:choose>
 										<c:when test="${edit}">
-											<form:input type="hidden" path="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="true"/>
+											<form:input type="hidden" path="password" id="password" pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="true"/>
 										</c:when>
 
 										<c:otherwise>
@@ -216,13 +216,13 @@
 												<label for="exampleInputPassword1">Password</label>
 												<form:input id="exampleInputPassword1" name="password"
 													path="password" type="password"
-													class="form-control bg-gray" placeholder="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="true"/>
+													class="form-control bg-gray" placeholder="" pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="true"/>
 											</div>
 											<div class="form-group password">
 												<label for="exampleInputPassword2">Re-enter Password</label>
 												<form:input id="exampleInputPassword2" name="cpassword"
 													path="cpassword" type="password"
-													class="form-control bg-gray" placeholder="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="true"/>
+													class="form-control bg-gray" placeholder="" pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="true"/>
 											</div>
 										</c:otherwise>
 									</c:choose>
@@ -275,7 +275,6 @@
 	<!-- End Scroll To top -->
 
 
-	<%@include file="script.jsp"%>
 	<script type="text/javascript">
 		$("#stateId")
 				.change(
@@ -291,7 +290,7 @@
 
 											var slctSubcat = $('#cityId'), option = "";
 											slctSubcat.empty();
-											var select = "<option value='0'> --- Select city ---</option>";
+											var select = "<option value='0'> Select city </option>";
 
 											for (var i = 0; i < data.length; i++) {
 												option = option
@@ -323,7 +322,7 @@
 
 											var slctSubcat = $('#areaId'), option = "";
 											slctSubcat.empty();
-											var select = "<option value='0'> --- Select area ---</option>";
+											var select = "<option value='0'> Select area </option>";
 
 											for (var i = 0; i < data.length; i++) {
 												option = option
@@ -388,6 +387,8 @@
 							});
 		});
 	</script>
+		<%@include file="script.jsp"%>
+	
 
 </body>
 </html>
