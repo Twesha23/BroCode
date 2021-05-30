@@ -17,7 +17,7 @@ public class CityDaoImpl  extends GenericDaoImpl<City> implements CityDao{
 	@Override
 	public List<City> getActive() {
 		
-		String query="select c.cityId as cityId,c.name as name,s.name as sname,"
+		String query="select c.cityId as cityId,c.cityName as cityName,s.stateName as stateName,"
 				+ "c.createdBy as createdBy,c.modifiedBy as modifiedBy ,c.stateId as stateId"
 				+ " FROM City c inner join "
 				+ "State s ON c.stateId=s.stateId WHERE c.isDeleted=0 and s.isDeleted=0 ";
@@ -26,7 +26,7 @@ public class CityDaoImpl  extends GenericDaoImpl<City> implements CityDao{
 
 	@Override
 	public List<City> getAllCitiesByStateId(int stateId) {
-		String query="select c.cityId as cityId,c.name as name,s.name as sname,"
+		String query="select c.cityId as cityId,c.cityName as cityName,s.stateName as stateName,"
 				+ "c.createdBy as createdBy,c.modifiedBy as modifiedBy ,c.stateId as stateId"
 				+ " FROM City c inner join "
 				+ "State s ON c.stateId=s.stateId WHERE c.isDeleted=0 and s.isDeleted=0 "

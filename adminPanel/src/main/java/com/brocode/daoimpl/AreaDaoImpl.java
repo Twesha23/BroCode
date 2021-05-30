@@ -14,8 +14,8 @@ public class AreaDaoImpl extends GenericDaoImpl<Area> implements AreaDao {
 
 	@Override
 	public List<Area> getActive() {
-		List<Area> list = DbUtility.getListData("select a.areaId as areaId,a.name as name,c.name as cname,"
-				+ "s.stateId as stateId,s.name as sname,"
+		List<Area> list = DbUtility.getListData("select a.areaId as areaId,a.areaName as areaName,"
+				+ "s.stateId as stateId,c.cityName as cityName,s.stateName as stateName,"
 				+ "a.createdBy as createdBy,a.modifiedBy as modifiedBy ,a.cityId as cityId "
 				+ " FROM City c "
 				+ "INNER JOIN Area a ON a.cityId = c.cityId "
@@ -26,8 +26,8 @@ public class AreaDaoImpl extends GenericDaoImpl<Area> implements AreaDao {
 
 	@Override
 	public Area getFullObjById(int id) {
-		Area a =(DbUtility.getListData("select a.areaId as areaId,a.name as name,c.name as cname,"
-				+ "s.stateId as stateId,s.name as sname,"
+		Area a =(DbUtility.getListData("select a.areaId as areaId,a.areaName as areaName,"
+				+ "s.stateId as stateId,c.cityName as cityName,s.stateName as stateName,"
 				+ "a.createdBy as createdBy,a.modifiedBy as modifiedBy ,a.cityId as cityId "
 				+ " FROM City c "
 				+ "INNER JOIN Area a ON a.cityId = c.cityId "
