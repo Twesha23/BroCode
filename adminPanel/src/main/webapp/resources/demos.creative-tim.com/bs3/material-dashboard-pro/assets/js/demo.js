@@ -807,7 +807,7 @@ demo = {
 
     	}else if(type == 'success-message'){
         	swal({
-                title: "Successfully Registered!!",
+                title: "Good job!",
                 text: "You clicked the button!",
                 buttonsStyling: false,
                 confirmButtonClass: "btn btn-success",

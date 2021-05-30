@@ -42,7 +42,7 @@ public class LoginController {
 
 	@RequestMapping("/forgotPassword")
 	public String forgot() {
-		return "forgotpassword";
+		return "/admin/forgotpassword";
 	}
 
 	@RequestMapping("/getPassword")
@@ -58,7 +58,7 @@ public class LoginController {
 	@RequestMapping("/changePassword")
 	public String change(Model model) {
 		model.addAttribute("cpass", new Admin());
-		return "changepassword";
+		return "/admin/changepassword";
 	}
 
 	@RequestMapping("/change")

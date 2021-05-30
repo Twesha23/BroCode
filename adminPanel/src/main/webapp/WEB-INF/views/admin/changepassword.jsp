@@ -16,8 +16,9 @@
 	</noscript>
 	<!-- End Google Tag Manager (noscript) -->
 
-	<div class="wrapper">
+	
 		<%@include file="../sidebar.jsp"%>
+		<div class="wrapper">
 		<div class="main-panel">
 			<%@include file="../header.jsp"%>
 			<div class="content">
@@ -86,6 +87,11 @@
 						</div>
 					</div>
 					<%@include file="../footer.jsp"%>
+					</div>
+					</div>
+					</div>
+					</div>
+	
 </body>
 <!--   Core JS Files   -->
 <%@include file="../corejsfiles.jsp"%>

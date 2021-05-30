@@ -30,7 +30,7 @@ public class LoginServiceImpl implements LoginService{
 	@Autowired
 	HttpSession session;
 	
-	private static String UPLOADED_FOLDER1 ="E:\\Tools\\Tomcat 9.0\\webapps\\brocodeadmin\\resources\\images\\profilePicture"+File.separator;
+	private static String UPLOADED_FOLDER1 ="D:\\Java Tools\\Java Tools\\apache-tomcat-8.5.66\\webapps\\adminPanel\\resources\\images\\profilePicture"+File.separator;
 	
 	@Override
 	public Admin login(Admin admin) {
@@ -46,8 +46,6 @@ public class LoginServiceImpl implements LoginService{
 			{
 				FTPUtils.download(newPP, UPLOADED_FOLDER1+newPP);
 			}
-			//for(int i=0;i<20;i++)
-			//a.setProfileImage((MultipartFile)(profileImage);
 		}
 		return a;
 	}
@@ -61,7 +59,7 @@ public class LoginServiceImpl implements LoginService{
 			String password = RandomString.getAlphaNumericString(n);
 			a.setPassword(PasswordEncode.passwordEncode(password));
 			adminDao.updateObject(a);
-			Mailer.send("maidinindia03@gmail.com", "brocode@41926", admin.getEmail(), "Hello,How r u?", password);
+			Mailer.send("garageinyourpocket@gmail.com", "garage@232426", admin.getEmail(), "Hello " + admin.getFname() +"\nOTP: ", password);
 		}
 		return a;
 
@@ -80,7 +78,6 @@ public class LoginServiceImpl implements LoginService{
 			{
 				sAdmin.setPassword(PasswordEncode.passwordEncode(admin.getNpassword()));
 				adminDao.updateObject(sAdmin);
-				//Mailer.send("maidinindia03@gmail.com", "brocode@41926", admin.getEmailId(), "Hello,How r u?", a.getPassword());
 				return sAdmin;
 			}
 		}

@@ -12,61 +12,60 @@
 	response.sendRedirect("error");%> 
 <div class="sidebar" data-active-color="rose" data-background-color="black" data-image="/adminPanel/resources/demos.creative-tim.com/bs3/material-dashboard-pro/assets/img/sidebar-1.jpg">
     <div class="logo">
-        <a  class="simple-text logo-mini">
-             PG
-        </a>
 
         <a  class="simple-text logo-normal">
-             Easy-PG 
+			&ensp; Garage In Your Pocket
         </a>
     </div>
+     <% Admin admin = (Admin)session.getAttribute("admin"); %> 
     <div class="sidebar-wrapper">
         <div class="user">
             <div class="photo">
-                <!-- <img src="/adminPanel/resources/images/profilePicture/${admin.profilePicture}"/> -->
                 <img src="/adminPanel/resources/sample-profile-picture.png"/>
+                <!-- <img src="/adminPanel/resources/images/profilePicture/${admin}"/> -->
+                
             </div>
             <div class="info">
-                <a data-toggle="collapse" href="#collapseExample" class="collapsed">
+                 <a>
                     <span>
-                     	 <% Admin admin = (Admin)session.getAttribute("admin"); %> 
+                     	
                          <% out.println(admin.getFname()); %>  
                          <% out.print(admin.getLname()); %>
                           <b class="caret"></b>
                     </span>
                 </a>
                 <div class="clearfix"></div>
-                <div class="collapse" id="collapseExample">
+                <div>
                     <ul class="nav">
                        
                         <li>
                             <a href="/adminPanel/admin/editAdmin/${admin.adminId}">
-                                <span class="sidebar-mini"> EP </span>
+                                <span class="sidebar-mini"> </span>
                                 <span class="sidebar-normal"> Edit Profile </span>
                             </a>
                         </li>
                         <li>
                             <a href="/adminPanel/admin/adminRegistrationPage">
-                                <span class="sidebar-mini"> AA </span>
+                                <span class="sidebar-mini">  </span>
                                 <span class="sidebar-normal"> Add Admin </span>
                             </a>
                         </li>
                         <li>
                             <a href="/adminPanel/admin/changePassword">
-                                <span class="sidebar-mini"> CP </span>
+                                <span class="sidebar-mini">  </span>
                                 <span class="sidebar-normal"> Change Password </span>
                             </a>
                         </li>
                         <li>
                             <a href="/adminPanel/admin/adminList">
-                                <span class="sidebar-mini"> AL</span>
+                                <span class="sidebar-mini"> </span>
                                 <span class="sidebar-normal"> Admin List </span>
                             </a>
                         </li>
                         
                         <li>
                             <a href="/adminPanel/admin/login">
-                                <span class="sidebar-mini"> LO </span>
+                                <span class="sidebar-mini">  </span>
                                 <span class="sidebar-normal"> Logout </span>
                             </a>
                         </li>
@@ -84,25 +83,31 @@
                 </li>
 
             <li>
-                <a data-toggle="collapse" href="#componentsExamples">
+                <a>
                     <i class="material-icons">location_on</i>
                     <p> Manage Location 
                        <b class="caret"></b>
                     </p>
                 </a>
 
-                <div class="collapse" id="componentsExamples">
+                <div>
                     <ul class="nav">
                         <li>
                             <a href="/adminPanel/area/areaList">
-                                <span class="sidebar-mini"> A </span>
-                                <span class="sidebar-normal"> Area </span>
+                                <span class="sidebar-mini"> </span>
+                                <span class="sidebar-normal">Manage Areas </span>
                             </a>
                         </li>
                         <li>
                             <a href="/adminPanel/city/cityList">
-                                <span class="sidebar-mini"> C </span>
-                                <span class="sidebar-normal"> City </span>
+                                <span class="sidebar-mini">  </span>
+                                <span class="sidebar-normal">Manage Cities </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/adminPanel/state/stateList">
+                                <span class="sidebar-mini"> </span>
+                                <span class="sidebar-normal">Manage States </span>
                             </a>
                         </li>
                     </ul>
@@ -144,7 +149,7 @@
             <li>
                 <a data-toggle="collapse" href="#tablesExamples">
                     <i class="material-icons">settings</i>
-                    <p> Manage Garage 
+                    <p> Manage Garage
                        <b class="caret"></b>
                     </p>
                 </a>
@@ -152,8 +157,8 @@
                 <div class="collapse" id="tablesExamples">
                     <ul class="nav">
                         <li>
-                            <a href="/adminPanel/garage/garageList">
-                                <span class="sidebar-mini"> L </span>
+                            <a href="/adminPanel/garage/List">
+                                <span class="sidebar-mini"> G </span>
                                 <span class="sidebar-normal"> Listed Garages </span>
                             </a>
                         </li>
@@ -166,16 +171,10 @@
             <li>
                 <a href="/adminPanel/review/reviewList">
                     <i class="material-icons">sms</i>
-                    <p> Reviews </p>
+                    <p> Feedbacks </p>
                 </a>
             </li>
             
-            <li>
-                <a href="/adminPanel/feedback/feedbackList">
-                    <i class="material-icons">comment</i>
-                    <p> Comments </p>
-                </a>
-            </li>
             
            <!--  <li>
                 <a href="/adminPanel/pages/others/payment.jsp">
@@ -201,6 +200,6 @@
         </ul>
     </div>
 </div>
-
+<%@include file = "corejsfiles.jsp" %>
 </body>
 </html>

@@ -71,15 +71,15 @@ public class AdminController {
 	@RequestMapping("/adminRegistrationPage")
 	public String registrationpage(Model model) {
 		Admin admin = new Admin();
-		model.addAttribute("admin", admin);
+		model.addAttribute("admin1", admin);
 		model.addAttribute("edit", false);
 		return "/admin/addadmin";
 	}
 
 	@RequestMapping("/addAdmin")
-	public String registrationpage(@ModelAttribute("admin") Admin admin, BindingResult result, Model model,
+	public String registrationpage(@ModelAttribute("admin1") Admin admin1, BindingResult result, Model model,
 			@RequestParam("profileImage") MultipartFile file) {
-		long result1 = adminService.addAdmin(admin, file);
+		long result1 = adminService.addAdmin(admin1, file);
 		/*
 		 * if (result1 == 1) { model.addAttribute("errorMsg",
 		 * "It is already exists...!!!"); return "redirect:/admin/addadmin"; }
@@ -96,8 +96,8 @@ public class AdminController {
 
 	@RequestMapping("/editAdmin/{id}")
 	public String editAdmin(@PathVariable("id") long id, ModelMap model) {
-		Admin admin = adminService.getById(id);
-		model.addAttribute("admin", admin);
+		Admin admin1 = adminService.getById(id);
+		model.addAttribute("admin1", admin1);
 		model.addAttribute("edit", true);
 		return "/admin/addadmin";
 	}
@@ -120,9 +120,9 @@ public class AdminController {
 	}
 
 	@RequestMapping("/updateAdmin")
-	public String updateAdmin(@ModelAttribute("admin") Admin admin, BindingResult result, Model model,
+	public String updateAdmin(@ModelAttribute("admin1") Admin admin1, BindingResult result, Model model,
 			@RequestParam("profileImage") MultipartFile file) {
-		long res = adminService.updateAdmin(admin, file);
+		long res = adminService.updateAdmin(admin1, file);
 		if (res == 0) {
 			model.addAttribute("errorMsg", "Something went wrong..Try again!");
 			return "redirect:/admin/editAdmin/" + res;

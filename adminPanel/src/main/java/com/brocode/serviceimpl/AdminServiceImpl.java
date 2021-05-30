@@ -69,7 +69,7 @@ public class AdminServiceImpl implements AdminService {
 		}
 		if(admin != null)
 		{
-			Mailer.send("easypg123@gmail.com", "easypgmtv@123", admin.getEmail(),"Welcome to EasyPG ", password);
+			Mailer.send("garageinyourpocket@gmail.com", "garage@232426", admin.getEmail(),"Welcome to Garage In Your Pocket!! \n Your Password is: ", password);
 		}
 		
 		return 0;
@@ -97,7 +97,7 @@ public class AdminServiceImpl implements AdminService {
 		Admin a = adminDao.saveObject(admin);
 		if(a!=null)
 		{
-			Mailer.send("easypg123@gmail.com", "easypgmtv@123", admin.getEmail(), "Hello,How r u?", password);
+			Mailer.send("garageinyourpocket@gmail.com", "garage@232426", admin.getEmail(), "Welcome to Garage In Your Pocket!! \n Your Password is: ", password);
 		}
 		if(a!=null) {
 			FileUtils.uploadImageFile(file, UPLOADED_FOLDER1+newPP);
